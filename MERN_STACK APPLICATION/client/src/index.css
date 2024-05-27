@@ -1,0 +1,40 @@
+.newsletter {
+  background-color: #f9a826;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.rows {
+  width: 100%;
+}
+
+.newsletter-card {
+  background-color: #eee;
+  padding: 30px 20px;
+  border-radius: 8px;
+}
+
+.form-control-custom {
+  border-radius: 52px 0 0 52px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #f9a826;
+  outline: 0;
+  box-shadow: none;
+}
+
+.border-rad {
+  border-radius: 0 52px 52px 0;
+  color: #fff;
+  background-color: #f9a826;
+  border-color: #f9a826;
+}
+
+.border-rad:hover {
+  background-color: #f9a826;
+  border-color: #f9a826;
+}
